@@ -3,9 +3,9 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
-
+import * as THREE from './lib/three.module'
 Vue.config.productionTip = false
-
+Vue.prototype.$THREE = THREE
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

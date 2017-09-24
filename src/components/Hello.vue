@@ -1,6 +1,11 @@
 <template>
     <ul>
-      <li><a href="">demo1: geometries</a></li>
+      <li>
+        <router-link tag="a" :to="{name:'init'}">demo0: init</router-link>
+      </li>
+      <li>
+        <router-link tag="a" :to="{name:'demo1'}">demo1: geometries</router-link>
+      </li>
     </ul>
 </template>
 
